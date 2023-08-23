@@ -107,7 +107,9 @@ def main():
                 print("Invalid choice. Please Enter '1' or '2'.")
         except ValueError:
             print("------------------------------------------------------------------------------------------------")
-            print(Fore.RED + "Invalid choice! Only allow using numbers! Please, Enter '1' or '2'." + Style.RESET_ALL)
+            print(Fore.RED + 
+                  "Invalid choice! Only allow using numbers! Please, Enter '1' or '2'." + 
+                  Style.RESET_ALL)
             print("------------------------------------------------------------------------------------------------")
 
 
